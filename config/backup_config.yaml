@@ -1,0 +1,6 @@
+
+backup:
+  source_dir: "/home"
+  backup_dir: "/backups"
+  schedule: "daily"
+  retention_days: 7

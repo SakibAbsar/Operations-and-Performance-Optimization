@@ -1,0 +1,11 @@
+
+network:
+  ping_targets:
+    - "8.8.8.8"
+    - "192.168.1.1"
+  port_scan:
+    - "22"
+    - "80"
+  alert_thresholds:
+    latency_ms: 200
+    packet_loss: 10
